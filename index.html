@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- La sezione head contiene meta-informazioni sulla pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio di Funzioni di Base di HTML</title>
+    <style>
+        /* Stili CSS di base per la formattazione della pagina */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Il tag header definisce l'intestazione della pagina -->
+    <header>
+        <h1>Introduzione alle Funzioni di Base di HTML</h1>
+    </header>
+    <!-- Il tag nav definisce un'area di navigazione -->
+    <nav>
+        <a href="#testo">Testo</a>
+        <a href="#link">Link</a>
+        <a href="#immagini">Immagini</a>
+        <a href="#liste">Liste</a>
+        <a href="#tabelle">Tabelle</a>
+        <a href="#form">Form</a>
+    </nav>
+    <!-- Il tag main contiene il contenuto principale della pagina -->
+    <main class="container">
+        <!-- Sezione sul testo -->
+        <section id="testo" class="section">
+            <h2>Testo</h2>
+            <p>Il testo può essere formattato in vari modi. Ecco alcuni esempi:</p>
+            <p><strong>Grassetto</strong></p>
+            <p><em>Italic</em></p>
+            <p><u>Sottolineato</u></p>
+            <p><mark>Testo evidenziato</mark></p>
+        </section>
+        <!-- Sezione sui link -->
+        <section id="link" class="section">
+            <h2>Link</h2>
+            <p>I link permettono di navigare tra le pagine. Ecco un esempio di link:</p>
+            <p><a href="https://www.example.com" target="_blank">Visita Example.com</a></p>
+        </section>
+        <!-- Sezione sulle immagini -->
+        <section id="immagini" class="section">
+            <h2>Immagini</h2>
+            <p>Le immagini possono essere aggiunte usando il tag <code>&lt;img&gt;</code>:</p>
+            <img src="https://cdn.discordapp.com/attachments/1006265273256513627/1242937363668271104/cursed_shrek.jpg?ex=664fa720&is=664e55a0&hm=8d252aafd3389595138e83313e3d8c2e5905a1b1aafe5535ef41b60b4c7fb16a&" alt="Esempio di Immagine">
+            
+        </section>
+        <!-- Sezione sulle liste -->
+        <section id="liste" class="section">
+            <h2>Liste</h2>
+            <p>Ci sono due tipi principali di liste: ordinate e non ordinate.</p>
+            <h3>Lista non ordinata:</h3>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+            <h3>Lista ordinata:</h3>
+            <ol>
+                <li>Primo elemento</li>
+                <li>Secondo elemento</li>
+                <li>Terzo elemento</li>
+            </ol>
+        </section>
+        <!-- Sezione sulle tabelle -->
+        <section id="tabelle" class="section">
+            <h2>Tabelle</h2>
+            <p>Le tabelle organizzano i dati in righe e colonne:</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Intestazione 1</th>
+                        <th>Intestazione 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Sezione sui moduli -->
+        <section id="form" class="section">
+            <h2>Form</h2>
+            <p>I form permettono agli utenti di inserire dati:</p>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Messaggio:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+    <!-- Il tag footer definisce il piè di pagina della pagina -->
+    <footer>
+        <p>&copy; 2024 Esempio di HTML. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
